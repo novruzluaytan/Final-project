@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" id="login">
         <div class="leftside">
+            <img src="../pics/loginpic.png" alt="">
             <div class="logo"></div>
         </div>
         <div class="rightside">
@@ -29,15 +30,111 @@
                             <input type="checkbox" id="checkbox">
                             <label for="checkbox" class="checkbox">Remember me</label>
                         </div>
-                        <button class="btn_forgetten">Forgot Password?</button>
+                        <button class="btn_forgetten"><a href="#">Forget Password?</a></button>
                     </div>
                 </div>
 
-                <button class="btn_login">Login</button>
+                <button class="btn" onclick="toggleText()">Login</button>
 
             </div>
         </div>
     </div>
+
+    <div class="container" id="signup">
+        <div class="leftside">
+            <img src="../pics/signuppic.png" alt="">
+            <div class="logo"></div>
+        </div>
+        <div class="rightside">
+            <div class="login">
+                <div class="top">
+                    <div class="welcome">Create New Account</div>
+                    <div class="loginHere">Please enter details</div>
+                </div>
+                <div class="middle">
+                    <label for="text" class="firstName">First Name</label>
+                    <input type="text" id="text">
+                    <label for="text" class="lastName">Last Name</label>
+                    <input type="text" id="text">
+                    <label for="mail" class="mail">Email Address</label>
+                    <input type="email" id="mail">
+                    <label for="password" class="password">Password</label>
+                    <input type="password" id="password">
+                    <div class="remember-forget">
+                        <div class="remember">
+                            <input type="checkbox" id="checkbox">
+                            <label for="checkbox" class="checkbox">Remember me</label>
+                        </div>
+                        <button class="btn_forgetten">Forgot Password?</button>
+                    </div>
+                </div>
+
+                <button class="btn" onclick="toggleText()">Login</button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="password_page">
+        <div class="leftside">
+            <img src="../pics/password_page.png">
+            <div class="logo"></div>
+        </div>
+        <div class="rightside">
+            <div class="login">
+                <div class="top">
+                    <div class="arrow_back" id="back"  onclick="goBack()">
+                        <img src="../pics/arrow-left.svg">
+                        <div class="back">Back</div>
+                    </div>
+                    <div class="welcome">Forgot Password</div>
+                    <div class="loginHere">Enter your registered email address. We’ll send you a code to reset your password.</div>
+                </div>
+                <div class="middle">
+                    <label for="mail" class="mail">Email Address</label>
+                    <input type="email" id="mail">
+                </div>
+                <button class="btn" onclick="toggleText()">Send OTP</button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="enter_otp">
+        <div class="leftside">
+            <img src="../pics/password_page.png">
+            <div class="logo"></div>
+        </div>
+        <div class="rightside">
+            <div class="login">
+                <div class="top">
+                    <div class="arrow_back" id="back" onclick="goBack()">
+                        <img src="../pics/arrow-left.svg">
+                        <div class="back">Back</div>
+                    </div>
+                    <div class="welcome">Enter OTP</div>
+                    <div class="loginHere">We have share a code of your registered email address
+                        robertfox@example.com</div>
+                </div>
+                <div class="middle2">
+                    <label for="number" class="number"></label>
+                    <input type="number" id="number" min="1" max="9">
+                    <label for="number" class="number"></label>
+                    <input type="number" id="number" min="1" max="9">
+                    <label for="number" class="number"></label>
+                    <input type="number" id="number" min="1" max="9">
+                    <label for="number" class="number"></label>
+                    <input type="number" id="number" min="1" max="9">
+                    <label for="number" class="number"></label>
+                    <input type="number" id="number" min="1" max="9">
+                </div>
+                <button class="btn" onclick="toggleText()">Send OTP</button>
+
+            </div>
+        </div>
+    </div>
+
+<script src="../js/app.js"></script>
 </body>
 
 </html>

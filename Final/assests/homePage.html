@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../styles/homePage.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="left-navbar">
+        <img src="../pics/krist_logo.svg" alt="logo" class="img-logo">
+      </div>
+
+      <div class="mid-navbar">
+        <div class="home">Home</div>
+        <div class="Shop">Shop</div>
+        <div class="story">Our Story</div>
+        <div class="blog">Blog</div>
+        <div class="contact">Contact Us</div>
+      </div>
+
+      <div class="right-navbar">
+        <img src="../pics/logoSearch.svg" alt="search">
+        <img src="../pics/logoHeart.svg" alt="heart">
+        <img src="../pics/logoSebet.svg" alt="sebet">
+        <button class="btn-login">Login</button>
+      </div>
+    </div>
+
+    <div class="heroSection">
+      <img src="../pics/heroSection.png" alt="heroSection" class="img-heroSection">
+    </div>
+
+    <div class="shopByCategories">
+      <div class="top-shop">
+        <div class="leftSide">Shop by Categories</div>
+        <div class="rightSide">
+          <button class="btn-prev" onclick="plusSlides(-1)"> ❮ </button>
+          <button class="btn-next" onclick="plusSlides(1)"> ❯ </button>
+        </div>
+      </div>
+
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="types">
+            <img src="../pics/casualWear.png" class="sliderimg" style="width:100%">
+            <button class="buttonWear">Casual Wear</button>
+          </div>
+          <div class="types">
+            <img src="../pics/westernWear.png" class="sliderimg" style="width:100%">
+            <button class="buttonWear">Western Wear</button>
+          </div>
+          <div class="types">
+            <img src="../pics/ethnicWear.png" class="sliderimg" style="width:100%">
+            <button class="buttonWear">Ethnic Wear</button>
+          </div>
+          <div class="types">
+            <img src="../pics/kidsWear.png" class="sliderimg" style="width:100%">
+            <button class="buttonWear">Kids Wear</button>
+          </div>
+        </div>
+
+
+        <div class="mySlides fade">
+          <div class="types">
+            <img src="../pics/westernWear.png" class="sliderimg" style="width:100%">
+            <button class="buttonWear">Western Wear</button>
+          </div>
+          <div class="types">
+            <img src="../pics/casualWear.png" class="sliderimg" style="width:100%">
+            <button class="buttonWear">Casual Wear</button>
+          </div>
+          <div class="types">
+            <img src="../pics/kidsWear.png" class="sliderimg" style="width:100%">
+            <button class="buttonWear">Kids Wear</button>
+          </div>
+          <div class="types">
+            <img src="../pics/ethnicWear.png" class="sliderimg" style="width:100%">
+            <button class="buttonWear">Ethnic Wear</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bigTitle">Our Bestseller</div>
+
+    <div class="bestSellers">
+
+      <div class="card">
+        <div class="item">
+          <div class="imgPart">
+            <img src="../pics/tshirt.png" alt="">
+          </div>
+          <div class="hoverImg">
+            <div class="topPics">
+              <img src="../pics/starr.svg" alt="">
+              <img src="../pics/arrows.svg" alt="">
+              <img src="../pics/eyee.svg" alt="">
+            </div>
+            <button class="addToCart">Add To Cart</button>
+          </div>
+        </div>
+        <div class="textPart">
+          <span>Roadstra</span>
+          <p>Printed Cotton T-shirt</p>
+          <p>$38.00 <s>$40.00</s></p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="item">
+          <div class="imgPart">
+            <img src="../pics/bag.png" alt="">
+          </div>
+          <div class="hoverImg">
+            <div class="topPics">
+              <img src="../pics/starr.svg" alt="">
+              <img src="../pics/arrows.svg" alt="">
+              <img src="../pics/eyee.svg" alt="">
+            </div>
+            <button class="addToCart">Add To Cart</button>
+          </div>
+        </div>
+        <div class="textPart">
+          <span>Allen Solly</span>
+          <p>Women Textured Handheld Bag</p>
+          <p>$80.00 <s>$100.00</s></p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="item">
+          <div class="imgPart">
+            <img src="../pics/sweater.png" alt="">
+          </div>
+          <div class="hoverImg">
+            <div class="topPics">
+              <img src="../pics/starr.svg" alt="">
+              <img src="../pics/arrows.svg" alt="">
+              <img src="../pics/eyee.svg" alt="">
+            </div>
+            <button class="addToCart">Add To Cart</button>
+          </div>
+        </div>
+        <div class="textPart">
+          <span>Louis Philippe Sport</span>
+          <p>Polo Collar T-Shirt</p>
+          <p>$50.00 <s>$55.00</s></p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="item">
+          <div class="imgPart">
+            <img src="../pics/shoesSport.png" alt="">
+          </div>
+          <div class="hoverImg">
+            <div class="topPics">
+              <img src="../pics/starr.svg" alt="">
+              <img src="../pics/arrows.svg" alt="">
+              <img src="../pics/eyee.svg" alt="">
+            </div>
+            <button class="addToCart">Add To Cart</button>
+          </div>
+        </div>
+        <div class="textPart">
+          <span>Adidas</span>
+          <p>Men adi-dash Running Shoes</p>
+          <p>$60.00 <s>$75.00</s></p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="item">
+          <div class="imgPart">
+            <img src="../pics/dress.png" alt="">
+          </div>
+          <div class="hoverImg">
+            <div class="topPics">
+              <img src="../pics/starr.svg" alt="">
+              <img src="../pics/arrows.svg" alt="">
+              <img src="../pics/eyee.svg" alt="">
+            </div>
+            <button class="addToCart">Add To Cart</button>
+          </div>
+        </div>
+        <div class="textPart">
+          <span>Trendyol</span>
+          <p>Floral Embroidered Maxi Dress</p>
+          <p>$35.00 <s>$45.00</s></p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="item">
+          <div class="imgPart">
+            <img src="../pics/dressKid.png" alt="">
+          </div>
+          <div class="hoverImg">
+            <div class="topPics">
+              <img src="../pics/starr.svg" alt="">
+              <img src="../pics/arrows.svg" alt="">
+              <img src="../pics/eyee.svg" alt="">
+            </div>
+            <button class="addToCart">Add To Cart</button>
+          </div>
+        </div>
+        <div class="textPart">
+          <span>YK Disney</span>
+          <p>Girls Pink Moana Printed Dress</p>
+          <p>$80.00 <s>$100.00</s></p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="item">
+          <div class="imgPart">
+            <img src="../pics/tshirtPolo.png" alt="">
+          </div>
+          <div class="hoverImg">
+            <div class="topPics">
+              <img src="../pics/starr.svg" alt="">
+              <img src="../pics/arrows.svg" alt="">
+              <img src="../pics/eyee.svg" alt="">
+            </div>
+            <button class="addToCart">Add To Cart</button>
+          </div>
+        </div>
+        <div class="textPart">
+          <span>US Polo</span>
+          <p>Tailored Cotton Casual Shirt</p>
+          <p>$40.00 <s>$50.00</s></p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="item">
+          <div class="imgPart">
+            <img src="../pics/shoesWomen.png" alt="">
+          </div>
+          <div class="hoverImg">
+            <div class="topPics">
+              <img src="../pics/starr.svg" alt="">
+              <img src="../pics/arrows.svg" alt="">
+              <img src="../pics/eyee.svg" alt="">
+            </div>
+            <button class="addToCart">Add To Cart</button>
+          </div>
+        </div>
+        <div class="textPart">
+          <span>Zyla</span>
+          <p>Women Sandals</p>
+          <p>$35.00 <s>$40.00</s></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- countdown -->
+    <div class="dealsOfMonth">
+
+      <div class="leftPart">
+        <div class="title">Deals of the Month</div>
+        <div class="descr">It is a long established fact that a reader will be distracted by the readable content of a
+          page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+          distribution of letters</div>
+
+        <ol class="ui-countdown" data-time="2024-01-31">
+          <li data-label="day"></li>
+          <li data-label="hour"></li>
+          <li data-label="minutes"></li>
+          <li data-label="seconds"></li>
+        </ol>
+
+        <button class="allProducts">View All Products
+          <img src="../pics/arrowRight copy.svg">
+        </button>
+      </div>
+
+      <div class="rightPart">
+        <img src="../pics/rightPart.png">
+      </div>
+    </div>
+
+
+    <!-- comments -->
+    <div class="commentSection">
+      <h3>What our Customer say's</h3>
+      <div class="wrapper">
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <ul class="carousel">
+          <li class="card">
+            <div class="stars">
+              <img src="../pics/yellowstar.svg">
+              <img src="../pics/yellowstar.svg">
+              <img src="../pics/yellowstar.svg">
+              <img src="../pics/yellowstar.svg">
+              <img src="../pics/yellowstar.svg">
+            </div>
+            <div class="description">
+              It is a long established fact that a reader will be distracted by the readable content of a page when
+              looking at its layout. The point of using Lorem Ipsum.
+            </div>
+            <div class="img"><img src="../pics/oval1.png" alt="img" draggable="false"></div>
+            <h2>Blanche Pearson</h2>
+            <span>Sales Manager</span>
+          </li>
+          <li class="card">
+            <div class="stars">
+              <img src="../pics/yellowstar.svg">
+              <img src="../pics/yellowstar.svg">
+              <img src="../pics/yellowstar.svg">
+              <img src="../pics/yellowstar.svg">
+              <img src="../pics/yellowstar.svg">
+            </div>
+            <div class="description">
+              It is a long established fact that a reader will be distracted by the readable content of a page when
+              looking at its layout. The point of using Lorem Ipsum.
+            </div>
+            <div class="img"><img src="../pics/oval2.svg" alt="img" draggable="false"></div>
+            <h2>Joenas Brauers</h2>
+            <span>Web Developer</span>
+          </li>
+          <li class="card">
+            <div class="stars">
+              <img src="../pics/yellowstar.svg">
+              <img src="../pics/yellowstar.svg">
+              <img src="../pics/yellowstar.svg">
+              <img src="../pics/yellowstar.svg">
+              <img src="../pics/yellowstar.svg">
+            </div>
+            <div class="description">
+              It is a long established fact that a reader will be distracted by the readable content of a page when
+              looking at its layout. The point of using Lorem Ipsum.
+            </div>
+            <div class="img"><img src="../pics/oval3.svg" alt="img" draggable="false"></div>
+            <h2>Lariach French</h2>
+            <span>Online Teacher</span>
+          </li>
+          <li class="card">
+            <div class="stars">
+              <img src="../pics/yellowstar.svg">
+              <img src="../pics/yellowstar.svg">
+              <img src="../pics/yellowstar.svg">
+              <img src="../pics/yellowstar.svg">
+              <img src="../pics/yellowstar.svg">
+            </div>
+            <div class="description">
+              It is a long established fact that a reader will be distracted by the readable content of a page when
+              looking at its layout. The point of using Lorem Ipsum.
+            </div>
+            <div class="img"><img src="../pics/oval2.svg" alt="img" draggable="false"></div>
+            <h2>James Khosravi</h2>
+            <span>Freelancer</span>
+          </li>
+          <li class="card">
+            <div class="stars">
+              <img src="../pics/yellowstar.svg">
+              <img src="../pics/yellowstar.svg">
+              <img src="../pics/yellowstar.svg">
+              <img src="../pics/yellowstar.svg">
+              <img src="../pics/yellowstar.svg">
+            </div>
+            <div class="description">
+              It is a long established fact that a reader will be distracted by the readable content of a page when
+              looking at its layout. The point of using Lorem Ipsum.
+            </div>
+            <div class="img"><img src="../pics/oval1.png" alt="img" draggable="false"></div>
+            <h2>Kristina Zasiadko</h2>
+            <span>Bank Manager</span>
+          </li>
+          <li class="card">
+            <div class="stars">
+              <img src="../pics/yellowstar.svg">
+              <img src="../pics/yellowstar.svg">
+              <img src="../pics/yellowstar.svg">
+              <img src="../pics/yellowstar.svg">
+              <img src="../pics/yellowstar.svg">
+            </div>
+            <div class="description">
+              It is a long established fact that a reader will be distracted by the readable content of a page when
+              looking at its layout. The point of using Lorem Ipsum.
+            </div>
+            <div class="img"><img src="../pics/oval3.svg" alt="img" draggable="false"></div>
+            <h2>Donald Horton</h2>
+            <span>App Designer</span>
+          </li>
+        </ul>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+      </div>
+    </div>
+
+
+    <!-- instagram stories -->
+    <div class="instaStories">
+      <div class="instaStoryText">Our Instagram Stories</div>
+      <div class="instaPics">
+        <img class="itemPicInsta" src="../pics/instaPic1.png">
+        <img class="itemPicInsta" src="../pics/instaPic2.png">
+        <img class="itemPicInsta" src="../pics/instaPic3.png">
+        <img class="itemPicInsta" src="../pics/instaPic4.png">
+      </div>
+    </div>
+
+    <div class="features">
+      <div class="featureItem">
+        <img src="../pics/shippingLogo.svg" alt="">
+        <h6>Free Shipping</h6>
+        <div class="descr">Free shipping for order above $150</div>
+      </div>
+      <div class="featureItem">
+        <img src="../pics/moneyLogo.svg" alt="">
+        <h6>Money Guarantee</h6>
+        <div class="descr">Within 30 days for an exchange</div>
+      </div>
+      <div class="featureItem">
+        <img src="../pics/supportLogo.svg" alt="">
+        <h6>Online Support</h6>
+        <div class="descr">24 hours a day, 7 days a week</div>
+      </div>
+      <div class="featureItem">
+        <img src="../pics/paymentLogo.svg" alt="">
+        <h6>Flexible Payment</h6>
+        <div class="descr">Pay with multiple credit cards</div>
+      </div>
+    </div>
+
+
+    <script src="../js/homePage.js"></script>
+</body>
+
+</html>
