@@ -46,7 +46,23 @@
     flex-direction: row;
     gap: 30px;
     font-family: firstFont;
+
+    .navbarText {
+        color: black;
+        text-decoration: none;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 .right-navbar {
     display: flex;
@@ -279,8 +295,6 @@ s {
 .bigTitle {
     color: var(--Dark-500, #131118);
     text-align: center;
-
-    /* Header-3 Regular */
     font-family: firstFont;
     font-size: 40px;
     font-style: normal;
@@ -462,7 +476,6 @@ ol {
 
         display: grid;
         list-style: none;
-        /* padding: .5ch 1ch; */
         text-align: center;
         width: 86px;
         height: 86px;
@@ -742,7 +755,6 @@ h3 {
 
 .instaStoryText {
     color: var(--Dark-500, #131118);
-    /* text-align: center; */
     font-family: firstFont;
     font-size: 40px;
     font-style: normal;
@@ -787,4 +799,140 @@ h6 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+/* footer */
+
+.footer {
+    background: var(--Dark-500, #131118);
+    width: 100%;
+    height: 387px;
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerTop {
+    width: 79.2%;
+    height: 322px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+.line {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.kristWhiteLogo {
+    width: 143px;
+    height: 58.103px;
+}
+
+.logoText {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-family: firstFont;
+}
+
+.topLink {
+    color: var(--White-500, #FFF);
+    font-family: firstFont;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+}
+
+.lastLine {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.border {
+    display: flex;
+    padding: 13px 16px;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--White-500, #FFF);
+    justify-content: space-between;
+}
+
+.mailPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.emptyLine {
+    width: 100%;
+    height: 1px;
+    background: var(--white-white-20, rgba(255, 255, 255, 0.20));
+}
+
+.footerBottom {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 79.2%;
+    justify-content: space-between;
+
+}
+
+.firstRow {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkText {
+    width: 307px;
+}
+
+/* hover shop text */
+.hover-container {
+    position: relative;
+    cursor: pointer;
+}
+
+.info-container {
+    display: none;
+    position: absolute;
+    top: -0.5%;
+    left: 35%;
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hover-container:hover .info-container {
+    display: block;
 }
